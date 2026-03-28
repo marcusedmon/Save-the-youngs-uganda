@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Youngs Uganda - Orphanage & Child Care</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        /* Header */
+        header {
+            background: #2E8B57; /* Green for hope & care */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+        /* Navigation */
+        nav {
+            background: #3CB371;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* Sections */
+        .section {
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            color: #2E8B57;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .about p, .services p, .get-involved p {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .service-card h3 {
+            color: #3CB371;
+            margin-bottom: 0.5rem;
+        }
+        /* Gallery Placeholder */
+        .gallery-placeholder {
+            text-align: center;
+            padding: 2rem;
+            background: #f0f0f0;
+            border-radius: 8px;
+            color: #666;
+        }
+        /* Contact Form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 0.8rem;
+            background: #2E8B57;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #3CB371;
+        }
+        /* Footer */
+        footer {
+            background: #2E8B57;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        /* Responsive for larger screens */
+        @media (min-width: 768px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Save the Youngs Uganda</h1>
+        <p>A Loving Orphanage Providing Care & Hope to Vulnerable Children</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Care</a>
+        <a href="#gallery">Photo Gallery</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Our Orangisation</h2>
+        <p>Save the Youngs Uganda is a non-profit Orangisation dedicated to providing a safe, loving home for children who have lost their parents or been separated from their families. Located in Jinja, Uganda, we strive to give every child under our care the warmth, support, and opportunities they need to grow into happy, healthy, and confident individuals.</p>
+        <p>Our team of dedicated caregivers and staff works tirelessly to ensure that each child feels loved, valued, and supported—like part of one big family.</p>
+    </section>
+
+    <!-- Our Care Section -->
+    <section id="services" class="section services">
+        <h2>What We Provide</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Safe Shelter & Care</h3>
+                <p>A secure, comfortable home with 24/7 care from trained staff, ensuring children’s physical and emotional safety.</p>
+            </div>
+            <div class="service-card">
+                <h3>Education & Learning</h3>
+                <p>Access to quality schooling, school supplies, and tutoring to help children build a strong foundation for their future.</p>
+            </div>
+            <div class="service-card">
+                <h3>Health & Nutrition</h3>
+                <p>Regular medical check-ups, nutritious meals, and healthcare support to keep children healthy and strong.</p>
+            </div>
+            <div class="service-card">
+                <h3>Emotional Support</h3>
+                <p>Counseling, mentorship, and a loving environment to help children heal from trauma and build self-esteem.</p>
+            </div>
+            <div class="service-card">
+                <h3>Skills Development</h3>
+                <p>Vocational training and life skills lessons to prepare older children for independence and employment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Recreation & Joy</h3>
+                <p>Playtime, sports, arts, and cultural activities to let children be kids and create happy memories.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-placeholder">
+            <p>Photos of our children, activities, and home coming soon!</p>
+            <p>You can add images here once you have them—we can help you set that up later.</p>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="get-involved" class="section get-involved">
+        <h2>Get Involved & Help</h2>
+        <p>We rely on the kindness of donors, volunteers, and partners to keep our orphanage running and give children the best care possible. There are many ways you can help:</p>
+        <p>• Donate food, clothing, school supplies, or medical needs<br>• Volunteer your time as a caregiver, tutor, or mentor<br>• Support us financially to cover housing, education, and healthcare costs<br>• Partner with us on projects to improve our facilities or expand our services</p>
+        <p>Every contribution, big or small, makes a huge difference in a child’s life.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p style="text-align: center; margin-bottom: 1rem;">If you’d like to visit, donate, or learn more about our orphanage, please reach out:</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="text-align: center; margin-top: 2rem; color: #666;">Location: Jinja, Uganda | Phone: [Add your phone number here] | Email: [Add your email here]</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Save the Youngs Uganda Orangisatione. All rights reserved.</p>
+        <p>Providing love, hope, and care to Uganda’s children and worldwide.</p>
+    </footer>
+</body>
+</html>
