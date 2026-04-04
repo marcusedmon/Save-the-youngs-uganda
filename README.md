@@ -26,16 +26,11 @@ Every donation, no matter the size, helps us expand our reach and stand with Uga
  
 How You Can Help
  
-- Donate: Visit our website [https://savetheyoungsuganda.org/donate] to make a one-time or monthly contribution. All donations go directly to on-the-ground programs.
+- Donate: Visit our website [https://marcusedmon github.com) to make a one-time or monthly contribution. All donations go directly to on-the-ground programs.
 - Spread the Word: Share our work with your friends, family, and social networks – awareness is just as powerful as support!
 - Volunteer: If you’re passionate about youth empowerment, check our website for opportunities to lend your skills or time, whether locally or from afar.
  
-Together, We Can Save the Youngs – Because Their Dreams Are Worth Fighting For
- 
- 
- 
-Would you like me to adjust this for a specific section of your website (like a homepage banner, donation page, or social media post)?
-Every Young Life Deserves a Chance to Shine
+Together, We Can Save the Youngs – Because Their Dreams Are Worth Fighting for them.
  
 In Uganda, countless young people face barriers like limited access to education, healthcare, and economic opportunities that hold them back from reaching their full potential. Save the Youngs Uganda was born from a simple belief: when we invest in youth, we build stronger communities, brighter futures, and a more equitable world.
  
